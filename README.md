@@ -7,7 +7,7 @@ This project began with a spreadsheet — but it evolved into a deep dive into c
 
 ---
 
-## Business Problem & Project Objective
+## Business Problem & Project Objectives
 
 The goal was to answer critical retail questions:
 - Who’s really spending?
