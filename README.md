@@ -83,6 +83,6 @@ This project demonstrates the value of digging deep into **customer behavior** a
 
 
 ## Dashboard View
-- ![Retail Sales Dashboard Image](https://github.com/user-attachments/assets/b088296b-1d89-429e-b108-9d1ceec1d143)
-- 
+ ![Retail Sales Dashboard Image](https://github.com/user-attachments/assets/b088296b-1d89-429e-b108-9d1ceec1d143)
+<a href="https://www.linkedin.com/posts/john-gaius-m_powerbi-retailanalytics-customerbehavior-activity-7321847297795891200-s4CJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAABwTWvwBrwno3DC96otPksttbAeLF72I-bQ">Complete Project Walkthrough Video</a>
 
