@@ -35,11 +35,11 @@ The dataset was sourced from a retail analytics case study and provided during t
 
 Using Power BI’s **Power Query Editor**, the dataset underwent the following transformation steps:
 
-- ** Data Cleaning:** Removed rows with missing or null values in key fields (e.g., revenue, customer age, transaction ID)
-- ** Duplicate Handling:** Identified and removed duplicate entries based on unique transaction IDs
-- ** Data Correction:** Corrected outliers and invalid entries (e.g., negative revenue)
-- ** Data Type Conversion:** Ensured proper data types (e.g., date, numeric, categorical)
-- ** Feature Engineering:** Created new columns such as:
+- **Data Cleaning:** Removed rows with missing or null values in key fields (e.g., revenue, customer age, transaction ID)
+- **Duplicate Handling:** Identified and removed duplicate entries based on unique transaction IDs
+- **Data Correction:** Corrected outliers and invalid entries (e.g., negative revenue)
+- **Data Type Conversion:** Ensured proper data types (e.g., date, numeric, categorical)
+- **Feature Engineering:** Created new columns such as:
   - Age group classification
   - Month and season of transaction
   - High-LTV customer flag
@@ -67,6 +67,7 @@ Using Power BI’s **Power Query Editor**, the dataset underwent the following t
 
 ---
 
+
 ## Strategic Recommendations
 
 1. **Segment customers by age group** to create detailed buyer personas  
@@ -79,4 +80,9 @@ Using Power BI’s **Power Query Editor**, the dataset underwent the following t
 ## Final Note
 
 This project demonstrates the value of digging deep into **customer behavior** and letting the data guide **real-world decisions**. Whether you're in retail, marketing, or strategy — knowing **who buys, when, and why** is where the smart money is.
+
+
+## Dashboard View
+- ![Retail Sales Dashboard Image](https://github.com/user-attachments/assets/b088296b-1d89-429e-b108-9d1ceec1d143)
+- 
 
