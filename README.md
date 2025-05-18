@@ -98,7 +98,7 @@ Conducted in Power BI using **Power Query**:
 
 ## 📈 Final Output: Dashboard Preview
 
-![Retail Sales Dashboard View](https://github.com/user-attachments/assets/92303fad-5391-47c9-811d-d2124e908439)
+![Retail Sales Dashboard View](https://github.com/user-attachments/assets/92303fad-5391-47c9-811d-d2124e908439
 
 
 🎥 [Click here for Full Walkthrough on LinkedIn](https://www.linkedin.com/posts/john-gaius-m_powerbi-retailanalytics-customerbehavior-activity-7321847297795891200-s4CJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAABwTWvwBrwno3DC96otPksttbAeLF72I-bQ)
