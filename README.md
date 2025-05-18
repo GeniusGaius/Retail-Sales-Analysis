@@ -1,88 +1,115 @@
-# Retail-Sales-Analysis
-Power BI retail analytics project uncovering trends in customer behavior and sales performance. Insights driven by demographic, seasonal, and product data.
+# 🛒 Retail Sales Analysis — Power BI Project
 
 > “Data doesn’t lie—but sometimes, it flirts before revealing the truth.”
 
-This project began with a spreadsheet — but it evolved into a deep dive into customer behavior, purchase trends, and surprising demographic insights.
+---
+
+## 📌 Business Scenario
+
+Retailers constantly collect data on customer purchases — but most don’t use it to **drive strategy**.
+
+This project simulates a **real-world sales analysis task** for a mid-size retail chain looking to:
+- Understand **who their customers are**
+- Identify **seasonal spikes**
+- Align **marketing and inventory** with actual behavior
 
 ---
 
-## Business Problem & Project Objectives
+## 🧠 Project Overview
 
-The goal was to answer critical retail questions:
-- Who’s really spending?
-- What influences purchase decisions?
-- When is the best time to launch promotions?
+In this project, I analyzed **retail transaction data** that reflects purchasing behaviors across multiple product categories and customer age groups.  
+I used **Power BI** to uncover:
+- High-spending segments
+- Top-performing product lines
+- Monthly and seasonal sales trends  
+- Demographic-based marketing opportunities
 
-By answering these questions, the business could better align marketing, inventory, and sales strategy to the actual behavior of its customers.
-
----
-
-## About the Dataset
-
-The dataset was sourced from a retail analytics case study and provided during training with **Quantum Analytics NG**. It contained anonymized transaction-level data across:
-- Product categories (beauty, clothing, electronics)
-- Purchase dates
-- Customer age groups
-- Revenue 
-- Transactions
-- Date
-- Quantity
+This kind of analysis could help a real company:
+- **Increase retention** by targeting their most valuable customers  
+- **Optimize promotions** around peak spending periods  
+- **Align stock levels** with seasonal demand  
+- **Tailor campaigns** by age and product interest
 
 ---
 
-## Data Preparation (Power Query)
+## 🧰 Tools & Techniques Used
 
-Using Power BI’s **Power Query Editor**, the dataset underwent the following transformation steps:
-
-- **Data Cleaning:** Removed rows with missing or null values in key fields (e.g., revenue, customer age, transaction ID)
-- **Duplicate Handling:** Identified and removed duplicate entries based on unique transaction IDs
-- **Data Correction:** Corrected outliers and invalid entries (e.g., negative revenue)
-- **Data Type Conversion:** Ensured proper data types (e.g., date, numeric, categorical)
-- **Feature Engineering:** Created new columns such as:
-  - Age group classification
-  - Month and season of transaction
-  - High-LTV customer flag
-
-  ## Key Performance Indicators (KPIs)
-
-| KPI | Purpose |
-|-----|---------|
-|  **Total Sales Revenue** | Measure overall business performance |
-|  **Average Revenue per Transaction** | Assess depth of individual purchases |
-|  **Product Category Performance** | Identify high- and low-performing segments |
-|  **Seasonal Shopping Trends** | Spot patterns in monthly or seasonal demand |
-|  **Demographic Spending Behavior** | Understand who your real customers are |
-|  **High-LTV Customers** | Focus on your most valuable customer segments |
+- **Power BI** for data modeling, DAX, and visualization  
+- **Power Query** for data cleaning and transformation  
+- **Data Storytelling** through interactive dashboards  
+- **KPI Development** for executive-level insights  
 
 ---
 
-## Key Findings
+## 📦 Dataset Description
 
-- **Electronics** generated more revenue than any other category
-- **Beauty** was most popular among **Gen Z**
-- **Fashion and Tech** were favored by **older generations**
-- **Women aged 50+** were the **highest-spending group**
-- **May, August, and October** had unexpectedly high sales spikes
+The dataset was sourced from a simulated retail case study during my training with **Quantum Analytics NG**.
 
----
-
-
-## Strategic Recommendations
-
-1. **Segment customers by age group** to create detailed buyer personas  
-2. **Focus campaigns around high-performing months** (e.g., May, August)  
-3. **Double down on customer lifetime value** — prioritize retention  
-4. **Bundle products by demographic trends** — tailor offers to different age groups
+It includes:
+- Transaction-level data (dates, product categories, revenue)
+- Customer demographics (age groups)
+- Sales metrics (quantity, revenue, transactions)
 
 ---
 
-## Final Note
+## 🔧 Data Preparation Steps
 
-This project demonstrates the value of digging deep into **customer behavior** and letting the data guide **real-world decisions**. Whether you're in retail, marketing, or strategy — knowing **who buys, when, and why** is where the smart money is.
+Conducted in Power BI using **Power Query**:
+- Removed nulls and invalid data  
+- Removed duplicates using unique transaction IDs  
+- Corrected negative revenue values  
+- Created new columns:
+  - Customer Age Segments  
+  - Seasonal Flags  
+  - High LTV Customer Identifiers
+
+---
+
+## 📊 Key KPIs Tracked
+
+| Metric | Business Relevance |
+|--------|--------------------|
+| 💰 Total Revenue | Overall business performance |
+| 📦 Category Sales Breakdown | Identify top-performing product lines |
+| 👥 Revenue by Age Group | Demographic targeting |
+| 📅 Monthly & Seasonal Trends | Campaign timing & inventory decisions |
+| ⭐ High-LTV Customer Spend | Retention opportunities |
+
+---
+
+## 🔍 Key Findings
+
+- **Electronics** had the highest overall revenue
+- **Gen Z** favored **Beauty products**
+- **Older customers** (esp. women 50+) spent the most per transaction
+- **May, August, October** were peak sales months
+- **Fashion** performed best during summer months
+
+---
+
+## 💡 Business Recommendations
+
+1. **Target campaigns by age group** — especially high-spending 50+ segment  
+2. **Plan promotions around high-revenue months**  
+3. **Bundle products** based on age and category preferences  
+4. **Double down on high-LTV retention strategies**
+
+---
+
+## 📈 Final Output: Dashboard Preview
+
+![Retail Sales Dashboard View](https://github.com/user-attachments/assets/92303fad-5391-47c9-811d-d2124e908439)
 
 
-## Dashboard View
- ![Retail Sales Dashboard Image](https://github.com/user-attachments/assets/b088296b-1d89-429e-b108-9d1ceec1d143)
-<a href="https://www.linkedin.com/posts/john-gaius-m_powerbi-retailanalytics-customerbehavior-activity-7321847297795891200-s4CJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAABwTWvwBrwno3DC96otPksttbAeLF72I-bQ">Complete Project Walkthrough Video</a>
+🎥 [Click here for Full Walkthrough on LinkedIn](https://www.linkedin.com/posts/john-gaius-m_powerbi-retailanalytics-customerbehavior-activity-7321847297795891200-s4CJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAABwTWvwBrwno3DC96otPksttbAeLF72I-bQ)
 
+---
+
+## ✅ Summary
+
+This project mirrors how a real retail business could turn raw transaction data into a strategic advantage.
+
+It demonstrates:
+- My ability to clean, model, and visualize real-world data  
+- How to convert raw metrics into **actionable insight**  
+- The value of using **Power BI** to power smarter business decisions
